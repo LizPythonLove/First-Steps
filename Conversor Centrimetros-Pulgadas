@@ -1,0 +1,27 @@
+#El siguiente es mi código original. Más abajo estan las correcciones sugeridas por la ia y el resultado final.
+
+"""
+print("Este es un conversor de centímetros a pulgadas.")
+centimetros = input("Ingresá tu valor en centímetros, separando los decimales con un punto: ")
+pulgadas = float(centimetros) * 2.5
+print("Tu valor en pulgadas es: " + str(pulgadas))
+"""
+
+# Mensaje de error
+# Hacer el formato de salida más elegante, en vez de concatenar, ponemos un fstrig
+# Hacer una variable para la constante 2.54
+
+print("Este es un conversor de centímetros a pulgadas.")
+try:
+    centimetros = input("Ingresá tu valor en centímetros, separando los decimales con un punto: ")
+    valor_de_conversion = 2.54
+    resultado = float(centimetros) * valor_de_conversion
+    print(f"Tu valor en pulgadas es: {resultado}")
+
+except ValueError:
+    print("Por favor, ingresá un número válido.")
+
+
+
+
+
