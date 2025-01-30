@@ -1,7 +1,6 @@
 price_house = 1000000
 good_credit_deposit = price_house * 0.1
 bad_credit_deposit = price_house * 0.2
-
 good_credit = False
 
 if good_credit:
@@ -12,7 +11,6 @@ else:
 # La version mejorada es:
 
 price = 1000000
-
 good_credit = True
 
 if good_credit:
