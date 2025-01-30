@@ -1,0 +1,13 @@
+price_house = 1000000
+good_credit_deposit = price_house * 0.1
+bad_credit_deposit = price_house * 0.2
+
+good_credit = False
+
+if good_credit:
+    print(f"You need to put down {good_credit_deposit} dollars.")
+else:
+    print(f"You need to put down {bad_credit_deposit} dollars")
+
+
+
