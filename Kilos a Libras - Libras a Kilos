@@ -1,0 +1,10 @@
+peso = (float(input("Ingresa tu peso: ")))
+conversor_de_peso = 2.2
+unidad_peso = input("Ingresá K si es en Kilos y L si es en Libras: ")
+
+if unidad_peso.upper() == "K":
+    print(f"Tu peso es {peso * conversor_de_peso} libras.")
+elif unidad_peso.upper() == "L":
+    print(f"Tu peso es {peso / conversor_de_peso} kilos.")
+else:
+    print("Debe haber habido un error. Intentalo de nuevo")
