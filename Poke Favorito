@@ -1,0 +1,17 @@
+nombre = input("¿Cómo te llamás? ").title()
+print(f"¡Hola, {nombre}!")
+pokemon_favorito = input("¿Cuál es tu pokemon favorito? ").title()
+print(f"Interesante elección, {nombre}, {pokemon_favorito} es muy especial.")
+input("¿Por qué te gusta? ")
+print("¿Sabés qué creo? Que algún día, podremos andar con nuestros pokemon favoritos a nuestro lado en el mundo real")
+expectativa = input("¿Pensás que podrá ser posible? ").title()
+
+if expectativa == "Si" or expectativa == "Sí":
+    print("Me gusta tu entusiasmo")
+elif expectativa == "No":
+    print("¿No? Bueno, habrá que esperar y ver.")
+else:
+    print("El tiempo dirá.")
+print(f"Por lo pronto, ¡Exitos con tus capturas, {nombre}!")
+
+
