@@ -1,3 +1,4 @@
+print("Adivina el número del 0 al 9")
 numero_secreto = 7
 chances = 3
 intentos = 0
