@@ -1,0 +1,14 @@
+numero_secreto = 7
+chances = 3
+intentos = 0
+while intentos < chances:
+    numero_arriesgado = int(input("Ingresá tu número: "))
+    intentos += 1
+    if numero_arriesgado == numero_secreto:
+        print("Ganaste!!!")
+        break
+else:
+    print("Perdiste")
+
+
+
