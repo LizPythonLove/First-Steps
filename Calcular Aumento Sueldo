@@ -1,0 +1,8 @@
+def aumentoSalario(salario, aumento):
+    return salario + salario * (aumento / 100)
+
+salario = float(input("Salario actual: "))
+aumento = float(input("Porcentaje de aumento: "))
+salario_actualizado = aumentoSalario(salario, aumento)
+
+print("Salario actualizado: $" + str(round(salario_actualizado, 2)))
