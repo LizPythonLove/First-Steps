@@ -1,0 +1,8 @@
+def tablaMultiplicar(n1, n2):
+    return str(n1) + "*" + str(n2) + "=" + str(n1 * n2)
+
+n = int(input("Ingresa tu numero: "))
+
+for i in range(0, 13):
+    print(tablaMultiplicar(i, n))
+
