@@ -1,0 +1,12 @@
+print("Calcula la cantidad total de segundos")
+
+def calculadoraDeSegundos(dias, horas, minutos, segundos):
+    return (dias * 86400) + (horas * 3600) + (minutos * 60) + segundos
+
+dias = int(input("Ingresá la cantidad de días: "))
+horas = int(input("Ingresá la cantidad de horas: "))
+minutos = int(input("Ingresá la cantidad de minutos: "))
+segundos = int(input("Ingresá la cantidad de segundos: "))
+
+total_segundos = "La cantidad total de segundos es: " + str(calculadoraDeSegundos(dias, horas, minutos, segundos))
+print(total_segundos)
