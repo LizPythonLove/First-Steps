@@ -1,0 +1,27 @@
+print("Calculadora de Indice de masa muscular")
+def calculadoraIndiceMasaMuscular(peso, altura):
+    return peso / (altura * altura)
+
+def pesoIdeal(altura):
+    peso_minimo = 18.5 * altura ** 2
+    peso_maximo = 24.5 * altura ** 2
+    return "Tu peso ideal está entre " + str(round(peso_minimo, 2)) + "kg y " + str(round(peso_maximo, 2)) + "kg."
+
+
+peso = float(input("Ingresá tu peso en kilos: "))
+altura = float(input("Ingresá tu altura en metros: "))
+resultado = calculadoraIndiceMasaMuscular(peso, altura)
+peso_ideal = pesoIdeal(altura)
+
+if resultado < 18.5:
+    print("Peso bajo.")
+elif resultado >= 18.5 and resultado <= 24.9:
+    print("Peso normal.")
+else:
+    print("Sobrepeso.")
+print(peso_ideal)
+
+
+
+
+
