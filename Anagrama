@@ -1,0 +1,23 @@
+def esAnagrama(palabra1, palabra2):
+    palabra1 = palabra1.lower()
+    palabra1 = list(palabra1)
+    palabra1 = sorted(palabra1)
+    palabra2 = palabra2.lower()
+    palabra2 = list(palabra2)
+    palabra2 = sorted(palabra2)
+    if palabra1 == palabra2:
+        return print("Es un anagrama.")
+    else:
+        return print("No es un anagrama.")
+
+palabra1 = input("Ingresá tu primer palabra: ")
+palabra2 = input("Ingresá tu segunda palabra: ")
+esAnagrama(palabra1, palabra2)
+
+
+
+
+
+
+
+
