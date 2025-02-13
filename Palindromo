@@ -1,0 +1,11 @@
+def esPalindromo(palabra):
+    if palabra_invertida == palabra:
+        return print("Es un palíndromo.")
+    else:
+        return print("No es un palíndromo.")
+
+palabra = input("Ingresa tu palabra o frase sin tildes ni puntuación: ").lower()
+palabra = palabra.replace(" ", "")
+palabra_invertida = palabra[::-1]
+
+esPalindromo(palabra)
