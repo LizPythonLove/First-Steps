@@ -1,0 +1,13 @@
+def encontrarDuplicados(lista_original):
+    duplicados = []
+    unicos = []
+    for i in lista_original:
+        if lista_original.count(i) > 1 and i not in duplicados:
+            duplicados.append(i)
+        elif lista_original.count(i) == 1 and i not in unicos:
+            unicos.append(i)
+    return duplicados, unicos
+
+lista_original = [1, 4, 6, 4, 7, 2, 7, 8, 1, 2, 1]
+duplicados, unicos = encontrarDuplicados(lista_original)
+print(duplicados, unicos)
