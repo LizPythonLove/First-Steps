@@ -1,0 +1,7 @@
+def calcularNumeroTriangular(fila):
+    return fila * (fila + 1) / 2
+
+fila = int(input("Fila del triángulo a calcular > "))
+numero_triangular = calcularNumeroTriangular(fila)
+print(f"El numero triangular de {fila} es {numero_triangular}")
+
